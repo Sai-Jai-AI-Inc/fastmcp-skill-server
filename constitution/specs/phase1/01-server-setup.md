@@ -19,9 +19,9 @@ Establishes the runnable foundation everything else in Phase 1 builds on. Must e
 
 ## Acceptance Criteria
 
-- [ ] `uv run python src/server.py` starts without error
-- [ ] MCP client can connect and receive server info
-- [ ] `SKILLS_DIR` and `PORT` read from environment at startup
+- [x] `uv run python src/server.py` starts without error
+- [x] MCP client can connect and receive server info
+- [x] `SKILLS_DIR` and `PORT` read from environment at startup
 
 ## Out of Scope
 

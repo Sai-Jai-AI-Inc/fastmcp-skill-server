@@ -1,0 +1,8 @@
+[project]
+name = "fastmcp-skill-server"
+version = "0.1.0"
+description = "MCP server as a distribution layer for Claude Code skills"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.3.1",
+]

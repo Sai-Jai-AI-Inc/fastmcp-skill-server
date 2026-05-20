@@ -16,12 +16,12 @@ A feature is not done until it is validated. Validation means the behavior is co
 - [ ] FastMCP server with two tools: `list_skills` and `get_skill`
 - [ ] Skills identified and fetched by filename
 - [ ] Skills loaded from a local directory of `.md` files
-- [ ] OAuth 2.0 auth via FastMCP
+- [ ] API key auth (Bearer token) via FastMCP
 - [ ] `Dockerfile` for container deployment
 - [ ] Minimal skill library (2–3 example skills) to prove the pattern
 
 **Done when:**
-- [ ] Claude Code connects to a Docker-hosted instance over HTTP with OAuth
+- [ ] Claude Code connects to a Docker-hosted instance over HTTP with API key
 - [ ] `list_skills` returns available skills
 - [ ] `get_skill` returns raw `.md` content by filename
 - [ ] A skill retrieved from the server executes correctly inside Claude Code

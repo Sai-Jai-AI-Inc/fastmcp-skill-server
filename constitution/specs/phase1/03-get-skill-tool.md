@@ -25,10 +25,10 @@ The agent needs the full skill `.md` content to load it into Claude Code. Filena
 
 ## Acceptance Criteria
 
-- [ ] Returns full raw content of an existing skill file
-- [ ] Returns MCP error for a filename that does not exist
-- [ ] Rejects filenames containing `/`, `\`, or `..`
-- [ ] Content returned is byte-for-byte identical to the file on disk
+- [x] Returns full raw content of an existing skill file
+- [x] Returns MCP error for a filename that does not exist
+- [x] Rejects filenames containing `/`, `\`, or `..`
+- [x] Content returned is byte-for-byte identical to the file on disk
 
 ## Out of Scope
 

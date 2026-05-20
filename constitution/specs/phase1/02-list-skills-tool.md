@@ -24,11 +24,11 @@ Claude Code needs to know what skills exist before it can fetch one. Discovery i
 
 ## Acceptance Criteria
 
-- [ ] Tool appears in MCP tool list
-- [ ] Returns correct filenames for all `.md` files in `SKILLS_DIR`
-- [ ] Returns `[]` when `SKILLS_DIR` is empty
-- [ ] Does not include non-`.md` files in results
-- [ ] Does not recurse into subdirectories
+- [x] Tool appears in MCP tool list
+- [x] Returns correct filenames for all `.md` files in `SKILLS_DIR`
+- [x] Returns `[]` when `SKILLS_DIR` is empty
+- [x] Does not include non-`.md` files in results
+- [x] Does not recurse into subdirectories
 
 ## Out of Scope
 

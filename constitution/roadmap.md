@@ -26,8 +26,6 @@ A feature is not done until it is validated. Validation means the behavior is co
 - [ ] `get_skill` returns raw `.md` content by filename
 - [ ] A skill retrieved from the server executes correctly inside Claude Code
 
-**Feature specs:** TBD (drafted before implementation begins)
-
 ---
 
 ## Phase 2 — Skill Authorship Pipeline
